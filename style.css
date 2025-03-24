@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('images/background.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: #333;
+}
+
+nav {
+    background-color: #007BFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #FFD700;
+}
+
+.hero {
+    padding: 20px 70px;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    margin-top: 15px;
+    text-decoration: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.feature {
+    width: 30%;
+    background: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.feature img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.offre {
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.9);
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.offre h2 {
+    color: #007BFF;
+}
+
+.offre ul {
+    text-align: left;
+    display: inline-block;
+    padding: 0;
+}
+
+.offre ul li {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.logo img {
+    height: 5px;  /* Ajuste la taille */
+    margin-right: 5px; /* Espace entre le logo et le texte */
+}
+
